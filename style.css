@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: navy;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    text-align: right;
+}
+
+#logo{
+    background-color: black;
+    width: 80px;
+    position: relative;
+    right: 100%;
+    background-image: url("https://static.toiimg.com/thumb/msid-78793760,imgsize-35863,width-400,resizemode-4/78793760.jpg");
+    background-size: contain;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+h1{
+    color: Gold;
+}
+
+p, .tickets{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.Jersey{
+    color: white;
+}
+
+.textlorem{
+    color: gold;
+}
+
+h3{
+    padding: 5px;
+}
+
+
+.right{
+    color: white;
+}
+
+
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px;
+
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+}
+
+.wrapper3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    padding-top: 100px;
+
+}
+
+.box1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #8d0909;
+    margin-top: -20px;
+}
+
+.bar{
+    color: gold;
+    background-color: navy;
+    font-size: 40px;
+}
+
+.box2{
+    width: 450px;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 200px;
+    background-color: #8d0909;
+    text-align: center;
+
+}
+
+
+.bar2{
+    color: gold;
+    background-color: navy;
+    font-size: 40px;
+}
+
+.box3{
+    width: 50%;
+    height: 290px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    align-items: center;
+
+
+    
+}
+
+
+.box4{
+    width: 450px;
+    height:330px;
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    margin: 25px;
+    justify-content: space-between;
+    text-align: center;
+    contain: content;
+
+}
+
+
+.box5{
+    width: 450px;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    margin: 25px;
+    background-color: #8d0909;
+    text-align: center;
+    padding-bottom: 450px;
+
+}
+
+.box6{
+    width: 450px;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    margin: 25px;
+    background-color: #8d0909;
+    text-align: center;
+    padding-bottom: 420px;
+    cursor: pointer;
+}
+
+.box7{
+    width: 450px;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    margin: 25px;
+    background-color: #8d0909;
+    text-align: center;
+    padding-bottom: 420px;
+    cursor: pointer;
+}
+
+.box8{
+    width: 450px;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    margin: 25px;
+    background-color: #8d0909;
+    text-align: center;
+    padding-bottom: 250px;
+    cursor: pointer;
+}
+
+.box9{
+    width: 450px;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    margin: 25px;
+    background-color: #8d0909;
+    text-align: center;
+    padding-bottom: 200px;
+    cursor: pointer;
+}
+
+.box10{
+    width: 150px;
+    height: 0px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 200px;
+    cursor: pointer;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box11{
+    width: 150px;
+    height: 0px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 200px;
+    cursor: pointer;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box12{
+    width: 150px;
+    height: 0px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 200px;
+    cursor: pointer;
+    background-image: url("https://help.twitter.com/content/dam/help-twitter/brand/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box13{
+    width: 150px;
+    height: 0px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 200px;
+    cursor: pointer;
+    background-image: url("https://www.youtube.com/img/desktop/yt_1200.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box14{
+    width: 150px;
+    height: 0px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 200px;
+    cursor: pointer;
+    background-image: url("data:image/png;base64,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");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.JerseyInfo{
+    position: fixed;
+    bottom: 300px;
+    left: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: navy;
+    min-height: 150px;
+    transition: .125s;
+}
+
+.JerseyInfo2{
+    position: fixed;
+    bottom: 200px;
+    right: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: navy;
+    min-height: 150px;
+    transition: .125s;
+}
+
+.HomeTickets{
+    position: fixed;
+    bottom: 200px;
+    right: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: navy;
+    min-height: 150px;
+    transition: .125s;
+}
+
+.SeasonTickets{
+    position: fixed;
+    bottom: 400px;
+    right: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: navy;
+    min-height: 150px;
+    transition: .125s;
+}
+
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: navy;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .menuIcon{
+        height: 100%;
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+    }
+
+    .barMenu{
+        height: 6px;
+        width: 80%;
+        background-color: white;
+    }
+
+    .menu{
+        position: fixed;
+        top: 50px;
+        right: -150px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+        background-color: navy;
+        min-height: 150px;
+        transition: .125s;
+    }
+
+    .tag1 {
+        pointer-events: none;
+        cursor: default;
+        color: navy;
+    }
+
+}
